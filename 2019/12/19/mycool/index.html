@@ -5,21 +5,21 @@
 
   
   <title>
-    我要变年轻 -
-    
+    mycool |
+    我要变年轻
   </title>
   
 
 
   <meta name="description" content="">
   <meta name="author" content="John Doe">
-  <meta property="og:title" content="我要变年轻" />
+  <meta property="og:title" content="mycool" />
   <meta property="og:description" content="" />
   <meta property='og:site_name' content='我要变年轻' />
   <meta property="og:image" content="https://micsource.github.io/51bnq/img/default.jpg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:description" content="" />
-  <meta name="twitter:title" content="我要变年轻" />
+  <meta name="twitter:title" content="mycool" />
 
   <meta name="twitter:image" content="https://micsource.github.io/51bnq/img/default.jpg" />
 
@@ -73,50 +73,82 @@
 </nav>
 
     <main class="page main-page">
-        
+        <div class="container blogPost">
+    <div class="row">
+        <div class="col-sm-8">
+            <h2 class="blog-post-title">
+                mycool
+            </h2>
+            <p class="meta"><i class="far fa-clock"></i>
+                2019-12-19
+                
+            </p>
+            <!-- Content -->
+            <p>测试图片好不好！</p>
 
-<div class="title">
-    <h2>
-        Archives
-    </h2>
-</div>
+            <br />
+            <p class="meta">
+                
+
+<a href="/51bnq/tags/aool/"> <i class="fas fa-tags"></i>
+    aool </a>
+
+            </p>
+        </div>
+
+        <div class="col-sm-4">
+            
+
+<span><b>
+        TL;DR</b></span>
+<p>
+    Yet another hexo theme.
+</p>
+<hr />
 
 
-<div class="band">
-    
-    <div class="item-01">
-  <a href="/51bnq/2019/12/19/mycool/" class="post">
-    <div class="thumb" style="background-image: url(/51bnq/images/welcome.jpg);"></div>
-    <article>
-      <h1>
-        mycool
-      </h1>
-      <p>
-        
-      </p>
-      <span>
-        2019-12-19</span>
-    </article>
-  </a>
+<span><b>
+        TL;DR 2</b></span>
+<p>
+    No, not another one :/
+</p>
+<hr />
+
+
+
+
+
+
+<span><a href="https://twitter.com/hexojs" target="_blank" rel="noopener"><b><i class="fab fa-twitter-square"></i>
+            <i class="fas fa-at"></i>
+            hexojs</b></a></span>
+<br />
+<a class="twitter-timeline" data-height="800" data-dnt="true" data-chrome="nofooter transparent noheader noborders "
+    href="https://twitter.com/hexojs?ref_src=twsrc%5Etfw"></a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </div>
+    </div>
 </div>
-    
-    <div class="item-02">
-  <a href="/51bnq/2019/12/19/hello-world/" class="post">
-    <div class="thumb" style="background-image: url(/51bnq/./img/default.jpg);"></div>
-    <article>
-      <h1>
-        Hello World
-      </h1>
-      <p>
-        
-      </p>
-      <span>
-        2019-12-19</span>
-    </article>
-  </a>
-</div>
-    
-</div>
+<!-- Menu fade on scroll -->
+<script>
+    var isScrolling;
+    var prevScrollpos = window.pageYOffset;
+    window.addEventListener('scroll', function (event) {
+        window.clearTimeout(isScrolling);
+        isScrolling = setTimeout(function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                $("#navbar").slideDown();
+            } else {
+                $("#navbar").slideUp();
+            }
+            prevScrollpos = currentScrollPos;
+        }, 66);
+    }, false);
+</script>
+
+<a class="float-left gradient btn paginationbtn" href="/51bnq/2019/12/19/hello-world/"><i class="fas fa-chevron-left"></i></a>
 
 
     </main>
